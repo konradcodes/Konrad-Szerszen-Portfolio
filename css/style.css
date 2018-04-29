@@ -96,8 +96,8 @@ body {
 .heading-secondary {
   font-size: 3.5rem;
   text-transform: uppercase;
-  font-weight: 700;
-  background-image: linear-gradient(to right, #0DE7F9, #00BAB7);
+  font-weight: 500;
+  background-image: linear-gradient(to right, #00BAB7, #05c46b);
   display: inline-block;
   -webkit-background-clip: text;
   color: transparent;
@@ -116,10 +116,19 @@ body {
   text-transform: uppercase; }
 
 .heading-education {
-  font-size: 2.5rem;
-  font-weight: 400;
+  font-size: 3.5rem;
+  font-weight: 500;
   letter-spacing: 1.5rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #000;
+  transition: color .3s; }
+  .heading-education:hover {
+    color: #3d5afe; }
+
+.fade-2 {
+  border-width: 0 0 1px;
+  border-image: linear-gradient(90deg, rgba(0, 186, 183, 0), #00bab7 50%, rgba(0, 186, 183, 0) 100%) 0 0 100%;
+  border-style: solid; }
 
 .u-center-text {
   display: flex;
@@ -164,8 +173,8 @@ body {
   .description:hover {
     transform: translateY(-1.3rem) scale(1.03);
     box-shadow: 1rem 2rem 3rem 0.7rem rgba(0, 0, 0, 0.2);
-    color: #fff;
-    background-color: #00BAB7; }
+    color: #000;
+    background-color: #fff; }
 
 .detail__box {
   font-size: 1rem;
@@ -186,19 +195,30 @@ body {
   align-items: center; }
 
 .skills__box {
-  padding: 8rem;
+  margin: 8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  transition: transform .3s; }
+  .skills__box:hover {
+    transform: translateY(-1.04rem) scale(1.1); }
 
 .skills__icon {
   width: 12.8rem;
   height: 12.8rem; }
 
+.skills__heading {
+  font-size: 1.5rem;
+  color: #000; }
+
+.skills__description {
+  color: #000;
+  font-size: 1rem; }
+
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, #0de7f9, #00bab7);
+  background-image: linear-gradient(to right bottom, rgba(13, 231, 249, 0.5), rgba(0, 186, 183, 0.5)), url(../img/background-2.jpeg);
   background-size: cover;
   background-position: bottom;
   clip-path: polygon(0 0, 100% 0, 100% 50vh, 50% 80%, 0 50%);
