@@ -1,0 +1,18 @@
+.btn {
+  
+  &:link,
+  &:visited {
+  text-decoration: none;
+  display: inline-block;
+  overflow: hidden;
+  line-height: .8;
+  position: absolute;
+}
+&--arrow {
+  color:$color-white;
+  font-size: 7rem;
+  animation: moveInTop 2s ease-out ,bounceArrow 1s infinite ease-out 2s;
+  margin-top: 15rem;
+  outline: none;
+ }
+}

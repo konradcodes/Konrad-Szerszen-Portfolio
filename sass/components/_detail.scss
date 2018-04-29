@@ -1,0 +1,28 @@
+.detail {
+
+
+&__box {
+  font-size: 1rem;
+  font-weight: 400;
+  padding:10rem 10rem;
+  color:$color-white;
+  box-shadow: .3rem .6rem 1rem rgba($color-black,.4);
+  transition: transform .3s;
+  background-image: linear-gradient(to right bottom,
+  rgba($color-primary-dark,.8),
+  rgba($color-white,.1)),
+  url(../img/skill-2.jpeg);
+  background-position: top;
+  background-size: cover;
+  
+
+  &:hover {
+    transform: translateY(-1.1rem) scale(1.03);
+  }
+ }
+ &__footer {
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+}

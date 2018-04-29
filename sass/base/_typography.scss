@@ -1,0 +1,62 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  // font-size: 16px;
+  line-height: 1.7;
+  color:$color-grey-dark;
+  padding: 3rem;
+}
+
+
+.heading-primary {
+  color:$color-white;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+
+  &--main {
+    display:block;
+    font-size: 5rem;
+    font-weight: 400;
+    letter-spacing: 1.4rem;
+    animation: moveInDown 2s ease-out;
+    margin-bottom: 1rem;
+  }
+  &--sub {
+    display:block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.7rem;
+    animation: moveInRight 2s ease-out;
+
+  }
+}
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image: linear-gradient(to right,$color-primary,$color-primary-dark);
+  display: inline-block;
+  -webkit-background-clip: text;
+  color:transparent;
+  letter-spacing: 2px;
+  transition: all .2s ease-in;
+  animation: moveMe 4.3s ease-out;
+  margin-top: -10rem;
+
+  &:hover {
+    letter-spacing:1rem;
+    text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+  }
+}
+.heading-tertiary {
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 1.01rem;
+  text-transform: uppercase;
+}
+.heading-education {
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 1.5rem;
+  text-transform: uppercase;
+}

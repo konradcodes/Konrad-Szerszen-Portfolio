@@ -1,0 +1,22 @@
+// About Me Section -- Description
+.description {
+  background-color: $color-white;
+  color:$color-primary-dark;
+  font-size: 1.5rem;
+  text-align: center;
+  width:50%;
+  margin: 10rem auto;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  box-shadow: 1.5rem 2.5rem 3.5rem 0.7rem rgba($color-black,.13);
+  transition: transform .4s, width .3s, background-color .3s, color .3s;
+  backface-visibility: hidden;
+
+  &:hover {
+    transform: translateY(-1.3rem) scale(1.03);
+    box-shadow: 1rem 2rem 3rem 0.7rem rgba($color-black,.2);
+    color:$color-white;
+    background-color: $color-primary-dark;
+  }
+}
