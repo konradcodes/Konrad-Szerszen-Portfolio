@@ -115,14 +115,14 @@ body {
   letter-spacing: 1.01rem;
   text-transform: uppercase; }
 
-.heading-education {
+.heading-technologies {
   font-size: 3.5rem;
   font-weight: 500;
   letter-spacing: 1.5rem;
   text-transform: uppercase;
   color: #000;
   transition: color .3s; }
-  .heading-education:hover {
+  .heading-technologies:hover {
     color: #3d5afe; }
 
 .fade-2 {
@@ -130,9 +130,20 @@ body {
   border-image: linear-gradient(90deg, rgba(0, 186, 183, 0), #00bab7 50%, rgba(0, 186, 183, 0) 100%) 0 0 100%;
   border-style: solid; }
 
+.heading-education {
+  font-size: 3.5rem;
+  font-weight: 400;
+  letter-spacing: 1.5rem;
+  text-transform: uppercase;
+  color: #fff;
+  background: #000;
+  position: absolute;
+  padding: 5rem;
+  top: 0;
+  min-width: 100%; }
+
 .u-center-text {
-  display: flex;
-  justify-content: center; }
+  text-align: center; }
 
 .u-margin-bottom-medium {
   margin-bottom: 6rem; }
@@ -163,7 +174,7 @@ body {
   font-size: 1.5rem;
   text-align: center;
   width: 50%;
-  margin: 10rem auto;
+  margin: 12rem auto;
   padding: 4rem 0;
   display: flex;
   justify-content: center;
@@ -256,5 +267,11 @@ body {
 
 .section-about {
   background-color: #faf9f9;
-  padding: 40rem 0;
+  padding: 30rem 0;
   margin-top: -55vh; }
+
+.section-education {
+  background-color: #333;
+  padding: 30rem 0;
+  margin-top: -45vh;
+  position: relative; }

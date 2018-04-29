@@ -7,7 +7,7 @@ body {
   padding: 3rem;
 }
 
-
+// HEADER
 .heading-primary {
   color:$color-white;
   text-transform: uppercase;
@@ -30,6 +30,9 @@ body {
 
   }
 }
+
+// SECTION ABOUT ME
+
 .heading-secondary {
   font-size: 3.5rem;
   text-transform: uppercase;
@@ -54,7 +57,7 @@ body {
   letter-spacing: 1.01rem;
   text-transform: uppercase;
 }
-.heading-education {
+.heading-technologies {
   font-size: 3.5rem;
   font-weight: 500;
   letter-spacing: 1.5rem;
@@ -74,4 +77,19 @@ body {
     rgba($color-primary-dark, 1) 50%,
     rgba($color-primary-dark, 0) 100%) 0 0 100%;
     border-style: solid;
+}
+
+// SECTION EDUCATION
+
+.heading-education {
+  font-size: 3.5rem;
+  font-weight: 400;
+  letter-spacing: 1.5rem;
+  text-transform: uppercase;
+  color:$color-white;
+  background: #000;
+  position: absolute;
+  padding:5rem;
+  top:0;
+  min-width: 100%;
 }
