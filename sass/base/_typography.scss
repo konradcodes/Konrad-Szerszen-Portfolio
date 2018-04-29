@@ -44,7 +44,7 @@ body {
   letter-spacing: 2px;
   transition: all .2s ease-in;
   animation: moveMe 4.3s ease-out;
-  margin-top: -10rem;
+  position: relative;
 
   &:hover {
     letter-spacing:1rem;
