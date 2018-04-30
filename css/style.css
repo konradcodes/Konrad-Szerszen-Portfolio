@@ -257,11 +257,6 @@ body {
     align-items: center;
     flex-wrap: wrap; }
 
-.heading-education {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
 .education__items {
   margin-top: 5rem;
   display: flex;
