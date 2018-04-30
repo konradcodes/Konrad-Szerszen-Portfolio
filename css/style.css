@@ -75,6 +75,9 @@ body {
   color: #777;
   padding: 3rem; }
 
+.container {
+  background-color: #faf9f9; }
+
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
@@ -151,9 +154,6 @@ body {
 .u-margin-top-large {
   margin-bottom: 12rem; }
 
-.u-negative-margin-bottom {
-  margin-bottom: -8rem; }
-
 .btn:link, .btn:visited {
   text-decoration: none;
   display: inline-block;
@@ -227,12 +227,13 @@ body {
     font-size: 1rem; }
 
 .header {
-  height: 95vh;
+  height: 80vh;
   background-image: linear-gradient(to right bottom, rgba(13, 231, 249, 0.5), rgba(0, 186, 183, 0.5)), url(../img/background-2.jpeg);
   background-size: cover;
   background-position: bottom;
-  clip-path: polygon(0 0, 100% 0, 100% 50vh, 50% 80%, 0 50%);
+  clip-path: polygon(0 0, 100% 0, 120% 50vh, 50% 100%, 0 70%);
   position: relative;
+  background-color: #faf9f9;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -264,13 +265,5 @@ body {
     align-items: center;
     flex-wrap: wrap; }
 
-.section-about {
-  background-color: #faf9f9;
-  padding: 30rem 0;
-  margin-top: -55vh; }
-
 .section-education {
-  background-color: #333;
-  padding: 30rem 0;
-  margin-top: -45vh;
-  position: relative; }
+  background-color: #333; }
