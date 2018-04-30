@@ -2,6 +2,12 @@
   
 }
 .section-education {
-  height: 70rem;
   background: linear-gradient(to right, $color-primary-education, $color-secondary-education);
+  overflow: hidden;
+
+  @supports(clip-path:polygon(0 0 )) or (-webkit-clip-path:polygon(0 0)) {
+    -webkit-clip-path:polygon(0 0,100% 0 ,100% 75vh,0 100% );
+    clip-path:polygon(0 0,100% 0 ,100% 75vh,0 100% );
+    height: 85vh;
+  }
 }

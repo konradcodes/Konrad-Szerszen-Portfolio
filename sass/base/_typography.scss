@@ -95,5 +95,14 @@ body {
  display:flex;
  align-items: center;
  justify-content: center;
+}
 
+.fade-3 {
+  border-width: 0 0 1px;
+  border-image: linear-gradient(
+    90deg,
+    rgba($color-white, 0),
+    rgba($color-white, 1) 50%,
+    rgba($color-white, 0) 100%) 0 0 100%;
+    border-style: solid;
 }
