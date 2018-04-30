@@ -1,9 +1,7 @@
 
 .education {
     
-    
   &__items {
-    margin-top: 5rem;
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -15,6 +13,13 @@
     text-align: center;
     flex:1;
     margin:1rem;
+    transition: transform .3s;
+    backface-visibility: hidden;
+
+    &:hover {
+      transform: translateY(-1.5rem) scale(1.03);
+      z-index: 10;
+    }
 
     &--1 {
       background-color: rgba($color-white,.8);
@@ -31,8 +36,12 @@
   }
 
   &__title {
-    // font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 300;
     text-transform: uppercase;
   }  
+
+  &__description {
+    font-size: 1.3rem;
+  }
 }
