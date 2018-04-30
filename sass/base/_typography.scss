@@ -106,3 +106,30 @@ body {
     rgba($color-white, 0) 100%) 0 0 100%;
     border-style: solid;
 }
+
+.fancy {
+  line-height: 1rem;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 1.5rem;
+  border-bottom: 1px solid $color-white;
+  border-top: 1px solid $color-white;
+  top: 0;
+  width: 100%;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 1.5rem;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 1.5rem;
+}
