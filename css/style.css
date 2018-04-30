@@ -101,13 +101,12 @@ body {
   text-transform: uppercase;
   font-weight: 500;
   background-image: linear-gradient(to right, #00BAB7, #05c46b);
-  display: inline-block;
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 2px;
   transition: all .2s ease-in;
   animation: moveMe 4.3s ease-out;
-  position: relative; }
+  margin-top: 3rem; }
   .heading-secondary:hover {
     letter-spacing: 1rem;
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
@@ -134,16 +133,11 @@ body {
   border-style: solid; }
 
 .heading-education {
-  font-size: 3.5rem;
-  font-weight: 400;
-  letter-spacing: 1.5rem;
+  font-size: 4.5rem;
+  font-weight: 300;
+  letter-spacing: 1rem;
   text-transform: uppercase;
-  color: #fff;
-  background: #000;
-  position: absolute;
-  padding: 5rem;
-  top: 0;
-  min-width: 100%; }
+  color: #fff; }
 
 .u-center-text {
   text-align: center; }
@@ -151,7 +145,7 @@ body {
 .u-margin-bottom-medium {
   margin-bottom: 6rem; }
 
-.u-margin-top-large {
+.u-margin-bottom-large {
   margin-bottom: 12rem; }
 
 .btn:link, .btn:visited {
@@ -174,10 +168,8 @@ body {
   font-size: 1.5rem;
   text-align: center;
   width: 50%;
-  margin: 12rem auto;
+  margin: 7rem auto;
   padding: 4rem 0;
-  display: flex;
-  justify-content: center;
   box-shadow: 1.5rem 2.5rem 3.5rem 0.7rem rgba(0, 0, 0, 0.13);
   transition: transform .4s, width .3s, background-color .3s, color .3s;
   backface-visibility: hidden; }
@@ -265,5 +257,35 @@ body {
     align-items: center;
     flex-wrap: wrap; }
 
+.heading-education {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.education__items {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.education__box {
+  padding: 3rem;
+  text-align: center;
+  flex: 1;
+  margin: 1rem; }
+  .education__box--1 {
+    background-color: rgba(255, 255, 255, 0.8); }
+  .education__box--2 {
+    background-color: rgba(255, 255, 255, 0.8); }
+  .education__box--3 {
+    background-color: rgba(255, 255, 255, 0.8); }
+  .education__box--4 {
+    background-color: rgba(255, 255, 255, 0.8); }
+
+.education__title {
+  font-weight: 300;
+  text-transform: uppercase; }
+
 .section-education {
-  background-color: #333; }
+  height: 80rem;
+  background: linear-gradient(to right, #000428, #004e92); }

@@ -1,11 +1,43 @@
+.heading-education {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 .education {
     
+    
   &__items {
+    margin-top: 5rem;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
   }
 
   &__box {
-  }
-  &__title {
+    padding:3rem;
+    
+    text-align: center;
+    flex:1;
+    margin:1rem;
 
+    &--1 {
+      background-color: rgba($color-white,.8);
+    }
+    &--2 {
+      background-color: rgba($color-white,.8);
+    }
+    &--3 {
+      background-color: rgba($color-white,.8);
+    }
+    &--4 {
+      background-color: rgba($color-white,.8);
+    }
+  }
+
+  &__title {
+    // font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
   }  
 }
