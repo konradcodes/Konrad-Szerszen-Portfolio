@@ -91,6 +91,7 @@ body {
  text-transform: uppercase;
  color: $color-white;
  padding:4rem;
+ margin-top: 2rem;
 
  display:flex;
  align-items: center;
@@ -109,7 +110,6 @@ body {
 
 .fancy {
   line-height: 1rem;
-  text-align: center;
 }
 .fancy span {
   display: inline-block;
@@ -122,7 +122,6 @@ body {
   height: 1.5rem;
   border-bottom: 1px solid $color-white;
   border-top: 1px solid $color-white;
-  top: 0;
   width: 100%;
 }
 .fancy span:before {

@@ -140,6 +140,7 @@ body {
   text-transform: uppercase;
   color: #fff;
   padding: 4rem;
+  margin-top: 2rem;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -150,8 +151,7 @@ body {
   border-style: solid; }
 
 .fancy {
-  line-height: 1rem;
-  text-align: center; }
+  line-height: 1rem; }
 
 .fancy span {
   display: inline-block;
@@ -164,7 +164,6 @@ body {
   height: 1.5rem;
   border-bottom: 1px solid #fff;
   border-top: 1px solid #fff;
-  top: 0;
   width: 100%; }
 
 .fancy span:before {
@@ -297,7 +296,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-bottom: 5rem; }
 
 .education__box {
