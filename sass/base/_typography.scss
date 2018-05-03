@@ -6,7 +6,6 @@ body {
   color:$color-grey-dark;
   padding: 3rem;
 }
-
 .container {
   background-color: $color-grey-light-1;
 }
@@ -32,7 +31,7 @@ body {
 
   }
 }
-
+/////////////////////////
 // SECTION ABOUT ME
 
 .heading-secondary {
@@ -46,7 +45,7 @@ body {
   letter-spacing: 2px;
   transition: all .2s ease-in;
   animation: moveMe 4.3s ease-out;
-  margin-top: 3rem;
+  margin-top: 4rem;
   display: inline-block;
 
   &:hover {
@@ -81,7 +80,7 @@ body {
     rgba($color-primary-dark, 0) 100%) 0 0 100%;
     border-style: solid;
 }
-
+////////////////////////////////
 // SECTION EDUCATION
 
 .heading-education {
@@ -131,4 +130,18 @@ body {
 .fancy span:after {
   left: 100%;
   margin-left: 1.5rem;
+}
+
+////////////////////////////////
+// PROJECTS SECTION
+
+.heading-projects {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: $color-white;
+  margin-bottom: 5rem;
+
+  
 }

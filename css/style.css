@@ -106,7 +106,7 @@ body {
   letter-spacing: 2px;
   transition: all .2s ease-in;
   animation: moveMe 4.3s ease-out;
-  margin-top: 3rem;
+  margin-top: 4rem;
   display: inline-block; }
   .heading-secondary:hover {
     letter-spacing: 1rem;
@@ -173,6 +173,14 @@ body {
 .fancy span:after {
   left: 100%;
   margin-left: 1.5rem; }
+
+.heading-projects {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 5rem; }
 
 .u-center-text {
   text-align: center; }
@@ -292,45 +300,115 @@ body {
     align-items: center;
     flex-wrap: wrap; }
 
-.education__items {
+.education {
+  padding-bottom: 15rem;
+  overflow: hidden; }
+  .education__items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3rem; }
+  .education__box {
+    padding: 3rem;
+    text-align: center;
+    flex: 1;
+    margin: 1rem;
+    transition: transform .3s;
+    backface-visibility: hidden;
+    margin-bottom: 10rem; }
+    .education__box:hover {
+      transform: translateY(-1.5rem) scale(1.03);
+      z-index: 10; }
+    .education__box--1 {
+      background-color: rgba(255, 255, 255, 0.8); }
+    .education__box--2 {
+      background-color: rgba(255, 255, 255, 0.8); }
+    .education__box--3 {
+      background-color: rgba(255, 255, 255, 0.8); }
+    .education__box--4 {
+      background-color: rgba(255, 255, 255, 0.8); }
+  .education__title {
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase; }
+  .education__description {
+    font-size: 1.3rem; }
+  .education__paragraph {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 4rem; }
+
+.project {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 3rem;
-  margin-bottom: 5rem; }
-
-.education__box {
-  padding: 3rem;
-  text-align: center;
-  flex: 1;
-  margin: 1rem;
-  transition: transform .3s;
-  backface-visibility: hidden; }
-  .education__box:hover {
-    transform: translateY(-1.5rem) scale(1.03);
-    z-index: 10; }
-  .education__box--1 {
-    background-color: rgba(255, 255, 255, 0.8); }
-  .education__box--2 {
-    background-color: rgba(255, 255, 255, 0.8); }
-  .education__box--3 {
-    background-color: rgba(255, 255, 255, 0.8); }
-  .education__box--4 {
-    background-color: rgba(255, 255, 255, 0.8); }
-
-.education__title {
-  font-size: 2rem;
-  font-weight: 300;
-  text-transform: uppercase; }
-
-.education__description {
-  font-size: 1.3rem; }
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .project__container {
+    width: 50%; }
+    .project__container:last-child {
+      margin-top: 10rem; }
+  .project__content {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 70%;
+    margin-bottom: 3rem; }
+  .project__content .project__content--overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 0.4s ease-in-out 0s; }
+  .project__content:hover .project__content--overlay {
+    opacity: 1; }
+  .project__content--details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out 0s; }
+  .project__content:hover .project__content--details {
+    top: 50%;
+    left: 50%;
+    opacity: 1; }
+  .project__content--title {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .5rem;
+    margin-bottom: .5rem;
+    text-transform: uppercase; }
+  .project__content--text {
+    color: #fff;
+    font-size: 1.5rem; }
+  .project__content--image {
+    background-size: cover;
+    width: 100%;
+    height: 100%; }
+  .project .fadeIn-bottom {
+    top: 80%; }
+  .project .fadeIn-top {
+    top: 20%; }
+  .project__description {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 5rem; }
 
 .section-education {
   background: linear-gradient(to right, #000428, #004e92);
   overflow: hidden; }
-  @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
-    .section-education {
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-      clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-      height: 95vh; } }
+
+.section-projects {
+  padding: 5rem 0 20rem 0;
+  background: linear-gradient(to right, #CB356B, #BD3F32);
+  overflow: hidden; }
