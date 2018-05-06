@@ -2,11 +2,11 @@
   height: 80vh;
   background-image:linear-gradient(
   to right bottom,
-  rgba($color-primary, .5),
-  rgba($color-primary-dark,.5)),
+  rgba($color-primary-projects, .5),
+  rgba($color-secondary-projects,.5)),
   url(../img/background-2.jpeg);
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   clip-path: polygon(0 0, 100% 0, 120% 50vh, 50% 100%, 0 70%);
   
   position: relative;
@@ -18,11 +18,11 @@
 
   &__logo-box {
     position: absolute;
-    top: 4rem;
-    left: 4rem;
+    top: 1rem;
+    left: 1rem;
   }
   &__logo {
-    height:3.5rem;
+    height:15rem;
   }
   
   &__text-box {

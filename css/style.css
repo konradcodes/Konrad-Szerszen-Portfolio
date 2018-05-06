@@ -263,9 +263,9 @@ body {
 
 .header {
   height: 80vh;
-  background-image: linear-gradient(to right bottom, rgba(13, 231, 249, 0.5), rgba(0, 186, 183, 0.5)), url(../img/background-2.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(203, 53, 107, 0.5), rgba(189, 63, 50, 0.5)), url(../img/background-2.jpeg);
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   clip-path: polygon(0 0, 100% 0, 120% 50vh, 50% 100%, 0 70%);
   position: relative;
   background-color: #faf9f9;
@@ -274,10 +274,10 @@ body {
   align-items: center; }
   .header__logo-box {
     position: absolute;
-    top: 4rem;
-    left: 4rem; }
+    top: 1rem;
+    left: 1rem; }
   .header__logo {
-    height: 3.5rem; }
+    height: 15rem; }
   .header__text-box {
     margin-bottom: 20rem;
     text-align: center;
