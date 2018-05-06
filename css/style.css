@@ -72,8 +72,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: #777;
-  padding: 3rem; }
+  color: #777; }
 
 .container {
   background-color: #faf9f9; }
@@ -106,7 +105,7 @@ body {
   letter-spacing: 2px;
   transition: all .2s ease-in;
   animation: moveMe 4.3s ease-out;
-  margin-top: 4rem;
+  margin-top: 7rem;
   display: inline-block; }
   .heading-secondary:hover {
     letter-spacing: 1rem;
@@ -212,7 +211,7 @@ body {
   text-align: center;
   width: 50%;
   margin: 7rem auto;
-  padding: 4rem 0;
+  padding: 4rem;
   box-shadow: 1.5rem 2.5rem 3.5rem 0.7rem rgba(0, 0, 0, 0.13);
   transition: transform .4s, width .3s, background-color .3s, color .3s;
   backface-visibility: hidden; }
@@ -264,7 +263,7 @@ body {
 
 .header {
   height: 80vh;
-  background-image: linear-gradient(to right bottom, rgba(203, 53, 107, 0.5), rgba(189, 63, 50, 0.5)), url(../img/background-2.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(203, 53, 107, 0.3), rgba(189, 63, 50, 0.3)), url(../img/background-2.jpeg);
   background-size: cover;
   background-position: center;
   clip-path: polygon(0 0, 100% 0, 120% 50vh, 50% 100%, 0 70%);
@@ -354,7 +353,8 @@ body {
     overflow: hidden;
     width: 100%;
     height: 70%;
-    margin-bottom: 3rem; }
+    margin-bottom: 3rem;
+    margin-top: 5rem; }
   .project__content .project__content--overlay {
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
@@ -403,7 +403,7 @@ body {
     color: #fff;
     text-align: center;
     font-size: 1.5rem;
-    margin-bottom: 5rem; }
+    margin-bottom: 6rem; }
 
 .section-education {
   background: linear-gradient(to right, #000428, #004e92);
