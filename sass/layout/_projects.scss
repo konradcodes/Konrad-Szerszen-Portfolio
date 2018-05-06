@@ -1,16 +1,12 @@
 .project {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
-
+  display: flex;
+  
+  align-items: center;
+ &__item {
+ }
 
 &__container {
-    width: 50%;
 
-    &:last-child {
-      margin-top: 10rem;
-    }
   }
 
 &__content {
@@ -18,10 +14,6 @@
   overflow: hidden;
   width: 100%;
   height: 70%;
-  margin-bottom: 3rem;
-  margin-top: 5rem;
-
-
 }
 
 &__content  &__content--overlay {
@@ -91,6 +83,6 @@
     color: $color-white;
     text-align: center;
     font-size: 1.5rem;
-    margin-bottom: 6rem;
+
   }
 }
