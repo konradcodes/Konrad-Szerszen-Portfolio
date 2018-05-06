@@ -1,7 +1,7 @@
 // About Me Section -- Description
 .description {
   background-color: $color-white;
-  color:$color-primary-dark;
+  color:inherit;
   font-size: 1.5rem;
   text-align: center;
   width:50%;
@@ -14,7 +14,7 @@
   &:hover {
     transform: translateY(-1.3rem) scale(1.03);
     box-shadow: 1rem 2rem 3rem 0.7rem rgba($color-black,.2);
-    color:$color-black;
+    color:$color-secondary-about;
     background-color: $color-white;
   }
 }

@@ -38,7 +38,7 @@ body {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 500;
-  background-image: linear-gradient(to right,$color-primary-dark,#05c46b);
+  background-image: linear-gradient(to right,$color-secondary-about,$color-primary-about);
   // display: inline-block;
   -webkit-background-clip: text;
   color:transparent;
@@ -142,6 +142,4 @@ body {
   text-transform: uppercase;
   color: $color-white;
   margin-bottom: 5rem;
-
-  
 }

@@ -35,7 +35,7 @@ body {
     transform: translateY(0); }
   50% {
     transform: translateY(2rem);
-    color: #59FF00; }
+    color: #FF8517; }
   100% {
     transform: translateY(0); } }
 
@@ -100,7 +100,7 @@ body {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 500;
-  background-image: linear-gradient(to right, #00BAB7, #05c46b);
+  background-image: linear-gradient(to right, #FF456B, #FB8022);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 2px;
@@ -207,7 +207,7 @@ body {
 
 .description {
   background-color: #fff;
-  color: #00BAB7;
+  color: inherit;
   font-size: 1.5rem;
   text-align: center;
   width: 50%;
@@ -219,26 +219,27 @@ body {
   .description:hover {
     transform: translateY(-1.3rem) scale(1.03);
     box-shadow: 1rem 2rem 3rem 0.7rem rgba(0, 0, 0, 0.2);
-    color: #000;
+    color: #FF456B;
     background-color: #fff; }
 
-.detail__box {
-  font-size: 1rem;
-  font-weight: 400;
-  padding: 10rem 10rem;
-  color: #fff;
-  box-shadow: 0.3rem 0.6rem 1rem rgba(0, 0, 0, 0.4);
-  transition: transform .3s;
-  background-image: linear-gradient(to right bottom, rgba(0, 186, 183, 0.8), rgba(255, 255, 255, 0.1)), url(../img/skill-2.jpeg);
-  background-position: top;
-  background-size: cover; }
-  .detail__box:hover {
-    transform: translateY(-1.1rem) scale(1.03); }
-
-.detail__footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
+.detail {
+  margin-top: 10rem; }
+  .detail__box {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10rem 10rem;
+    color: #fff;
+    box-shadow: 0.3rem 0.6rem 1rem rgba(0, 0, 0, 0.4);
+    transition: transform .3s;
+    background-image: linear-gradient(to right bottom, rgba(0, 186, 183, 0.8), rgba(255, 255, 255, 0.1)), url(../img/skill-2.jpeg);
+    background-position: top;
+    background-size: cover; }
+    .detail__box:hover {
+      transform: translateY(-1.1rem) scale(1.03); }
+  .detail__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
 
 .skills {
   margin-bottom: 5rem; }
