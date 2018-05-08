@@ -88,8 +88,7 @@ body {
  letter-spacing: 1rem;
  text-transform: uppercase;
  color: $color-white;
- padding:4rem;
- margin-top: 2rem;
+ padding: 10rem;
 
  display:flex;
  align-items: center;
@@ -159,7 +158,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   color: $color-white;
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
 
   &--me {
     background-image: linear-gradient(to right, $color-primary-projects, $color-primary-about);
@@ -171,11 +170,23 @@ body {
 text-align: center;
 font-size: 1.6rem;
 color: $color-white;
-margin-bottom: 4rem;
+margin-bottom: 8rem;
+padding: 0 20rem;
 }
 
 .contact__details {
   font-size: 1.4rem;
   color: $color-white;
   margin-top: 8rem;
+}
+
+///////////////////////////////
+// Footer Section
+.footer {
+  padding: 5rem;
+  text-align: center;
+  &__legal {
+    color: $color-white;
+    font-size: 1.6rem;
+  }
 }

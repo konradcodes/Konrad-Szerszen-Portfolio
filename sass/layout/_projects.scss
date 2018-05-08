@@ -10,6 +10,9 @@
   box-shadow: 0 1rem 2rem rgba($color-black,.4);
   transition: box-shadow .2s, transform .3s;
 
+  display: flex;
+  flex-direction: column;
+
   &:hover {
     box-shadow: 0 3rem 4rem rgba($color-black,.3);
     transform: translateY(-1.2rem) scale(1.03);
@@ -105,6 +108,7 @@
     text-align: center;
     font-size: 1.5rem;
     padding:3rem;
+    margin-bottom: 3rem;
 
   }
 
