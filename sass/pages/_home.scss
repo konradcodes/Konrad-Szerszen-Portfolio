@@ -10,3 +10,9 @@
   background: linear-gradient(to right, $color-primary-projects, $color-secondary-projects);
   overflow: hidden;
 }
+.section-contact {
+  background: linear-gradient(to right, $color-primary-education, $color-secondary-education);
+  overflow: hidden;
+  padding: 5rem 0 20rem 0;
+  text-align: center;
+}

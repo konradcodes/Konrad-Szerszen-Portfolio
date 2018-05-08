@@ -111,7 +111,7 @@ body {
 }
 .fancy span {
   display: inline-block;
-  position: relative;  
+  position: relative;
 }
 .fancy span:before,
 .fancy span:after {
@@ -144,8 +144,38 @@ body {
 }
 
 .project__footer {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: $color-white;
   text-align: center;
   margin: 10rem 15rem;
+}
+
+//////////////////////////////
+// Section Contact
+
+.heading__contact {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $color-white;
+  margin-bottom: 5rem;
+
+  &--me {
+    background-image: linear-gradient(to right, $color-primary-projects, $color-primary-about);
+    -webkit-background-clip: text;
+    color:transparent;
+  }
+}
+.contact__paragraph {
+text-align: center;
+font-size: 1.6rem;
+color: $color-white;
+margin-bottom: 4rem;
+}
+
+.contact__details {
+  font-size: 1.4rem;
+  color: $color-white;
+  margin-top: 8rem;
 }

@@ -182,10 +182,33 @@ body {
   margin-bottom: 5rem; }
 
 .project__footer {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #fff;
   text-align: center;
   margin: 10rem 15rem; }
+
+.heading__contact {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 5rem; }
+  .heading__contact--me {
+    background-image: linear-gradient(to right, #CB356B, #FB8022);
+    -webkit-background-clip: text;
+    color: transparent; }
+
+.contact__paragraph {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #fff;
+  margin-bottom: 4rem; }
+
+.contact__details {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-top: 8rem; }
 
 .u-center-text {
   text-align: center; }
@@ -209,6 +232,24 @@ body {
   animation: moveInTop 2s ease-out ,bounceArrow 1s infinite ease-out 2s;
   margin-top: 15rem;
   outline: none; }
+
+.contact__button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 4px;
+  font-size: 2rem;
+  font-weight: 500;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+  transition: .25s all ease-out;
+  border-color: #fff;
+  color: #fff; }
+  .contact__button:hover {
+    color: #004e92;
+    background-color: #fff; }
 
 .description {
   background-color: #fff;
@@ -393,7 +434,7 @@ body {
     transform: translate(-50%, -50%);
     transition: all 0.3s ease-in-out 0s; }
   .project__content--title {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #fff;
     font-weight: 300;
     letter-spacing: .5rem;
@@ -401,7 +442,7 @@ body {
     text-transform: uppercase; }
   .project__content--text {
     color: #fff;
-    font-size: 1rem; }
+    font-size: 1.4rem; }
   .project__content--image {
     background-size: cover;
     width: 100%;
@@ -418,12 +459,29 @@ body {
   .project__description {
     color: #000;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 3rem; }
   .project__description--heading {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin-top: 2rem; }
+
+.contact__items {
+  display: flex;
+  justify-content: center; }
+  .contact__items--box {
+    position: relative;
+    margin: 3rem; }
+  .contact__items--icon {
+    height: 5rem;
+    width: 5rem;
+    fill: #fff;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+    transition: all .4s; }
+    .contact__items--icon:hover {
+      fill: #CB356B;
+      transform: translateY(-1.1rem) scale(1.03);
+      box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3); }
 
 .section-education {
   background: linear-gradient(to right, #000428, #004e92);
@@ -433,3 +491,9 @@ body {
   padding: 5rem 0 20rem 0;
   background: linear-gradient(to right, #CB356B, #BD3F32);
   overflow: hidden; }
+
+.section-contact {
+  background: linear-gradient(to right, #000428, #004e92);
+  overflow: hidden;
+  padding: 5rem 0 20rem 0;
+  text-align: center; }

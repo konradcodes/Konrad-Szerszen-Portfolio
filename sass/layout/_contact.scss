@@ -1,0 +1,23 @@
+.contact__items {
+  display: flex;
+  justify-content: center;
+
+&--box {
+  position: relative;
+  margin: 3rem;
+} 
+
+&--icon {
+  height: 5rem;
+  width: 5rem;
+  fill: $color-white;
+  box-shadow: $shadow-light;
+  transition: all .4s;
+
+  &:hover {
+    fill: $color-primary-projects;
+    transform: translateY(-1.1rem) scale(1.03);
+    box-shadow: $shadow-dark;
+  }
+}
+}
