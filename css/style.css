@@ -369,6 +369,10 @@ body {
 .detail {
   display: flex;
   justify-content: space-around; }
+  @media only screen and (max-width: 56.25em) {
+    .detail {
+      flex-direction: column;
+      margin: 10rem 0; } }
 
 .skills {
   display: flex;
@@ -388,6 +392,9 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 3rem; }
+    @media only screen and (max-width: 56.25em) {
+      .education__items {
+        flex-direction: column; } }
   .education__box {
     padding: 3rem;
     text-align: center;
@@ -396,6 +403,11 @@ body {
     transition: transform .3s;
     backface-visibility: hidden;
     margin-bottom: 10rem; }
+    @media only screen and (max-width: 75em) {
+      .education__box {
+        flex-basis: 40%;
+        margin: 4rem;
+        padding: 5rem; } }
     .education__box:hover {
       transform: translateY(-1.5rem) scale(1.03);
       z-index: 10; }
@@ -412,12 +424,20 @@ body {
     font-weight: 300;
     text-transform: uppercase; }
   .education__description {
-    font-size: 1.3rem; }
+    font-size: 1.6rem; }
   .education__paragraph {
     font-size: 2rem;
     color: #fff;
     text-align: center;
     margin-bottom: 4rem; }
+    @media only screen and (max-width: 68.75em) {
+      .education__paragraph {
+        font-size: 1.6rem;
+        padding: 0 4rem;
+        margin-top: 5rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .education__paragraph {
+        padding: 0 5rem; } }
 
 .project {
   display: flex;

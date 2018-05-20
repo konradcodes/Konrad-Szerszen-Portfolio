@@ -1,7 +1,13 @@
 .detail {
   display: flex;
   justify-content: space-around;
+
+  @media only screen and (max-width:$bp-small) {
+    flex-direction: column;
+    margin: 10rem 0;
+  }
 }
+
 
 .skills {
   display: flex;
