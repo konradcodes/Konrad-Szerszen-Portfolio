@@ -20,6 +20,10 @@ body {
     letter-spacing: 1.4rem;
     animation: moveInDown 2s ease-out;
     margin-bottom: 1rem;
+
+    @media only screen and (max-width: $bp-largest) {
+      font-size: 4rem;
+    }
   }
   &--sub {
     display:block;
@@ -28,6 +32,10 @@ body {
     letter-spacing: 1.7rem;
     animation: moveInRight 2s ease-out;
 
+    @media only screen and (max-width: $bp-largest) {
+      font-size: 1.6rem;
+      letter-spacing: 1.5rem;
+    }
   }
 }
 /////////////////////////
@@ -50,6 +58,10 @@ body {
   &:hover {
     letter-spacing:1rem;
     text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+  }
+
+  @media only screen and (max-width: $bp-largest) {
+    margin-top: 4rem;
   }
 }
 .heading-tertiary {

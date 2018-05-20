@@ -11,6 +11,11 @@
   transition: transform .4s, width .3s, background-color .3s, color .3s;
   backface-visibility: hidden;
 
+  @media only screen and (max-width:$bp-largest) {
+    margin: 5rem auto;
+    width:70%;
+  }
+
   &:hover {
     transform: translateY(-1.3rem) scale(1.03);
     box-shadow: 1rem 2rem 3rem 0.7rem rgba($color-black,.2);

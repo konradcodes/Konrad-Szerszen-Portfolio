@@ -23,6 +23,10 @@
   }
   &__logo {
     height:15rem;
+
+    @media only screen and (max-width: $bp-large) {
+      height: 13rem;
+    }
   }
   
   &__text-box {

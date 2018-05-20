@@ -7,6 +7,9 @@
 
 html {
   font-size: 62.5%; }
+  @media only screen and (max-width: 68.75em) {
+    html {
+      font-size: 50%; } }
 
 body {
   box-sizing: border-box;
@@ -88,12 +91,19 @@ body {
     letter-spacing: 1.4rem;
     animation: moveInDown 2s ease-out;
     margin-bottom: 1rem; }
+    @media only screen and (max-width: 75em) {
+      .heading-primary--main {
+        font-size: 4rem; } }
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 1.7rem;
     animation: moveInRight 2s ease-out; }
+    @media only screen and (max-width: 75em) {
+      .heading-primary--sub {
+        font-size: 1.6rem;
+        letter-spacing: 1.5rem; } }
 
 .heading-secondary {
   font-size: 3.5rem;
@@ -110,6 +120,9 @@ body {
   .heading-secondary:hover {
     letter-spacing: 1rem;
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+  @media only screen and (max-width: 75em) {
+    .heading-secondary {
+      margin-top: 4rem; } }
 
 .heading-tertiary {
   font-size: 1.8rem;
@@ -239,6 +252,9 @@ body {
   animation: moveInTop 2s ease-out ,bounceArrow 1s infinite ease-out 2s;
   margin-top: 15rem;
   outline: none; }
+  @media only screen and (max-width: 75em) {
+    .btn--arrow {
+      font-size: 6rem; } }
 
 .contact__button {
   display: inline-block;
@@ -269,6 +285,10 @@ body {
   box-shadow: 1.5rem 2.5rem 3.5rem 0.7rem rgba(0, 0, 0, 0.13);
   transition: transform .4s, width .3s, background-color .3s, color .3s;
   backface-visibility: hidden; }
+  @media only screen and (max-width: 75em) {
+    .description {
+      margin: 5rem auto;
+      width: 70%; } }
   .description:hover {
     transform: translateY(-1.3rem) scale(1.03);
     box-shadow: 1rem 2rem 3rem 0.7rem rgba(0, 0, 0, 0.2);
@@ -280,13 +300,16 @@ body {
   .detail__box {
     font-size: 1rem;
     font-weight: 400;
-    padding: 10rem 10rem;
+    padding: 10rem;
     color: #fff;
     box-shadow: 0.3rem 0.6rem 1rem rgba(0, 0, 0, 0.4);
     transition: transform .3s;
     background-image: linear-gradient(to right bottom, rgba(0, 186, 183, 0.8), rgba(255, 255, 255, 0.1)), url(../img/skill-2.jpeg);
     background-position: top;
     background-size: cover; }
+    @media only screen and (max-width: 75em) {
+      .detail__box {
+        padding: 8rem; } }
     .detail__box:hover {
       transform: translateY(-1.1rem) scale(1.03); }
   .detail__footer {
@@ -332,6 +355,9 @@ body {
     left: 1rem; }
   .header__logo {
     height: 15rem; }
+    @media only screen and (max-width: 68.75em) {
+      .header__logo {
+        height: 13rem; } }
   .header__text-box {
     margin-bottom: 20rem;
     text-align: center;

@@ -10,6 +10,10 @@
 html {
   // This defines what 1rem is
   font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%; // 8/16 = 50%  
+  }
 }
 
 body {
