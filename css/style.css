@@ -487,7 +487,8 @@ body {
     width: 5rem;
     fill: #fff;
     box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
-    transition: all 0.4s; }
+    transition: all 0.4s;
+    backface-visibility: hidden; }
     .contact__items--icon:hover {
       fill: #CB356B;
       transform: translateY(-1.1rem) scale(1.03);

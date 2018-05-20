@@ -5,6 +5,7 @@
   &--box {
     position: relative;
     margin: 3rem;
+
   }
 
   &--icon {
@@ -13,6 +14,8 @@
     fill: $color-white;
     box-shadow: $shadow-light;
     transition: all 0.4s;
+    backface-visibility: hidden;
+
 
     &:hover {
       fill: $color-primary-projects;
