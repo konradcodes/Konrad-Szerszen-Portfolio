@@ -5,22 +5,31 @@
   &--box {
     position: relative;
     margin: 3rem;
+    backface-visibility: hidden;
 
   }
 
   &--icon {
-    height: 5rem;
-    width: 5rem;
+    height: 6rem;
+    width: 6rem;
     fill: $color-white;
-    box-shadow: $shadow-light;
-    transition: all 0.4s;
-    backface-visibility: hidden;
+    // box-shadow: $shadow-light;
+    transition: all .3s;
+    border-radius: 5px;
+    &--github {
+      border-radius: 100px;
+    }
 
 
     &:hover {
       fill: $color-primary-projects;
       transform: translateY(-1.1rem) scale(1.03);
-      box-shadow: $shadow-dark;
+      box-shadow: 0 1rem 2rem rgba($color-black, .3);
     }
+    &:active {
+      transform: translateY(-.5rem) scale(1.03); 
+      box-shadow: 0 .5rem 1rem rgba($color-black,.1);
+
+     }
   }
 }

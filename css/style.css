@@ -481,18 +481,23 @@ body {
   justify-content: center; }
   .contact__items--box {
     position: relative;
-    margin: 3rem; }
-  .contact__items--icon {
-    height: 5rem;
-    width: 5rem;
-    fill: #fff;
-    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
-    transition: all 0.4s;
+    margin: 3rem;
     backface-visibility: hidden; }
+  .contact__items--icon {
+    height: 6rem;
+    width: 6rem;
+    fill: #fff;
+    transition: all .3s;
+    border-radius: 5px; }
+    .contact__items--icon--github {
+      border-radius: 100px; }
     .contact__items--icon:hover {
       fill: #CB356B;
       transform: translateY(-1.1rem) scale(1.03);
-      box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3); }
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3); }
+    .contact__items--icon:active {
+      transform: translateY(-0.5rem) scale(1.03);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); }
 
 .section-education {
   background: linear-gradient(to right, #000428, #004e92);
