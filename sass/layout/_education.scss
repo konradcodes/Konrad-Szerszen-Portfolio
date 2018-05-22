@@ -1,12 +1,9 @@
 
 .education {
   padding-bottom: 15rem;
-  overflow: hidden;
+
   &__items {
-    display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 3rem;
+    display: flex;
 
     @media only screen and (max-width:$bp-small) {
       flex-direction: column;
@@ -14,59 +11,38 @@
   }
 
   &__box {
-    padding:3rem;
+    padding: 7rem;
     text-align: center;
-    flex:1;
-    margin:1rem;
-    transition: transform .3s;
-    backface-visibility: hidden;
-    margin-bottom: 10rem;
+    color: $color-white;
+    margin-bottom: 15rem;
 
-
-
-    @media only screen and (max-width:$bp-largest) {
-      flex-basis: 40%;
-      margin:4rem;
-      padding: 5rem;
-    }
-
-
-    &:hover {
-      transform: translateY(-1.5rem) scale(1.03);
-      z-index: 10;
-    }
-
-    &--1 {
-      background-color: rgba($color-white,.8);
-    }
     &--2 {
-      background-color: rgba($color-white,.8);
+      background-color: rgba($color-primary-education,.8);
     }
     &--3 {
-      background-color: rgba($color-white,.8);
+      background-color: rgba($color-primary-education,.8);
     }
     &--4 {
-      background-color: rgba($color-white,.8);
+      background-color: rgba($color-primary-education,.8);
     }
   }
 
   &__title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 300;
     text-transform: uppercase;
+    margin-bottom: 2rem;
 
   }  
 
   &__description {
     font-size: 1.6rem;
-
-    
   }
   &__paragraph {
     font-size: 2rem;
-    color: $color-white;
+    color: $color-grey-dark-2;
     text-align: center;
-    margin-bottom: 4rem;
+    padding: 0 10rem;
 
     @media only screen and (max-width:$bp-large) {
       font-size: 1.6rem;

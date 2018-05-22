@@ -95,13 +95,12 @@ body {
 // SECTION EDUCATION
 
 .heading-education {
- font-size: 4.5rem;
+ font-size: 5rem;
  font-weight: 300;
- letter-spacing: 1rem;
+ letter-spacing: 1.5rem;
  text-transform: uppercase;
  color: $color-white;
  padding: 10rem;
-
  display:flex;
  align-items: center;
  justify-content: center;
@@ -129,8 +128,8 @@ body {
   content: "";
   position: absolute;
   height: 1.5rem;
-  border-bottom: 1px solid $color-white;
-  border-top: 1px solid $color-white;
+  border-bottom: 1px solid $color-black;
+  border-top: 1px solid $color-black;
   width: 100%;
 }
 .fancy span:before {

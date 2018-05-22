@@ -8,7 +8,7 @@
 
 }
 &__box {
-  margin: 8rem;
+  margin: 10rem 12rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,15 +21,16 @@
 }
 
 &__icon {
-  width:12.8rem;
-  height:12.8rem;
+  width:15rem;
+  height:15rem;
 }
 &__heading {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color:$color-black;
+  margin: .6rem 0;
 }
 &__description {
   color:$color-black;
-  font-size: 1rem
+  font-size: 1.4rem
   }
 }

@@ -146,9 +146,9 @@ body {
   border-style: solid; }
 
 .heading-education {
-  font-size: 4.5rem;
+  font-size: 5rem;
   font-weight: 300;
-  letter-spacing: 1rem;
+  letter-spacing: 1.5rem;
   text-transform: uppercase;
   color: #fff;
   padding: 10rem;
@@ -173,8 +173,8 @@ body {
   content: "";
   position: absolute;
   height: 1.5rem;
-  border-bottom: 1px solid #fff;
-  border-top: 1px solid #fff;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
   width: 100%; }
 
 .fancy span:before {
@@ -320,7 +320,7 @@ body {
 .skills {
   margin-bottom: 5rem; }
   .skills__box {
-    margin: 8rem;
+    margin: 10rem 12rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -329,14 +329,15 @@ body {
     .skills__box:hover {
       transform: translateY(-1.04rem) scale(1.1); }
   .skills__icon {
-    width: 12.8rem;
-    height: 12.8rem; }
+    width: 15rem;
+    height: 15rem; }
   .skills__heading {
-    font-size: 1.5rem;
-    color: #000; }
+    font-size: 1.7rem;
+    color: #000;
+    margin: .6rem 0; }
   .skills__description {
     color: #000;
-    font-size: 1rem; }
+    font-size: 1.4rem; }
 
 .header {
   height: 80vh;
@@ -385,51 +386,35 @@ body {
     flex-wrap: wrap; }
 
 .education {
-  padding-bottom: 15rem;
-  overflow: hidden; }
+  padding-bottom: 15rem; }
   .education__items {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 3rem; }
+    display: flex; }
     @media only screen and (max-width: 56.25em) {
       .education__items {
         flex-direction: column; } }
   .education__box {
-    padding: 3rem;
+    padding: 7rem;
     text-align: center;
-    flex: 1;
-    margin: 1rem;
-    transition: transform .3s;
-    backface-visibility: hidden;
-    margin-bottom: 10rem; }
-    @media only screen and (max-width: 75em) {
-      .education__box {
-        flex-basis: 40%;
-        margin: 4rem;
-        padding: 5rem; } }
-    .education__box:hover {
-      transform: translateY(-1.5rem) scale(1.03);
-      z-index: 10; }
-    .education__box--1 {
-      background-color: rgba(255, 255, 255, 0.8); }
+    color: #fff;
+    margin-bottom: 15rem; }
     .education__box--2 {
-      background-color: rgba(255, 255, 255, 0.8); }
+      background-color: rgba(28, 28, 36, 0.8); }
     .education__box--3 {
-      background-color: rgba(255, 255, 255, 0.8); }
+      background-color: rgba(28, 28, 36, 0.8); }
     .education__box--4 {
-      background-color: rgba(255, 255, 255, 0.8); }
+      background-color: rgba(28, 28, 36, 0.8); }
   .education__title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 300;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-bottom: 2rem; }
   .education__description {
     font-size: 1.6rem; }
   .education__paragraph {
     font-size: 2rem;
-    color: #fff;
+    color: #737595;
     text-align: center;
-    margin-bottom: 4rem; }
+    padding: 0 10rem; }
     @media only screen and (max-width: 68.75em) {
       .education__paragraph {
         font-size: 1.6rem;
@@ -546,7 +531,7 @@ body {
       box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); }
 
 .section-education {
-  background: linear-gradient(to right, #000428, #004e92);
+  background-color: #1c1c24;
   overflow: hidden; }
 
 .section-projects {
@@ -555,7 +540,7 @@ body {
   overflow: hidden; }
 
 .section-contact {
-  background: linear-gradient(to right, #000428, #004e92);
+  background: linear-gradient(to right, #1c1c24, #004e92);
   overflow: hidden;
   padding: 7rem 0 20rem 0;
   text-align: center; }
