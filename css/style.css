@@ -224,7 +224,6 @@ body {
   margin-top: 8rem; }
 
 .footer {
-  padding: 5rem;
   text-align: center; }
   .footer__legal {
     color: #fff;
@@ -397,7 +396,7 @@ body {
   .education__box {
     text-align: center;
     color: #fff;
-    padding: 5rem;
+    padding: 0 5rem;
     margin: 2rem; }
     .education__box--2 {
       background-color: rgba(28, 28, 36, 0.8);
@@ -534,6 +533,18 @@ body {
     .contact__items--icon:active {
       transform: translateY(-0.5rem) scale(1.03);
       box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); }
+
+.footer {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .footer__logobox {
+    width: 10rem; }
+    .footer__logobox--img {
+      height: 10rem;
+      width: 10rem; }
 
 .section-education {
   background-color: #1c1c24;
