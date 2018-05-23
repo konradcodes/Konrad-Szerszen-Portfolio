@@ -183,6 +183,11 @@ body {
   color: $color-white;
   text-align: center;
   margin: 10rem 15rem;
+
+  @media only screen and (max-width:$bp-smallest) {
+    margin: 10rem;
+    padding: 5rem;
+  }
 }
 
 //////////////////////////////
@@ -208,6 +213,13 @@ font-size: 1.6rem;
 color: $color-white;
 margin-bottom: 8rem;
 padding: 0 20rem;
+
+@media only screen and (max-width:$bp-smallest) {
+  padding: 0 8rem;
+}
+@media only screen and (max-width:$bp-xs) {
+ padding: 0 3rem;
+}
 }
 
 .contact__details {

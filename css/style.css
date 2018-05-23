@@ -222,6 +222,10 @@ body {
   color: #fff;
   text-align: center;
   margin: 10rem 15rem; }
+  @media only screen and (max-width: 28.125em) {
+    .project__footer {
+      margin: 10rem;
+      padding: 5rem; } }
 
 .heading__contact {
   text-align: center;
@@ -241,6 +245,12 @@ body {
   color: #fff;
   margin-bottom: 8rem;
   padding: 0 20rem; }
+  @media only screen and (max-width: 28.125em) {
+    .contact__paragraph {
+      padding: 0 8rem; } }
+  @media only screen and (max-width: 25em) {
+    .contact__paragraph {
+      padding: 0 3rem; } }
 
 .contact__details {
   font-size: 1.4rem;
