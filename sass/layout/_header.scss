@@ -16,6 +16,10 @@
     justify-content: center;
     align-items: center;
 
+    @media only screen and (max-width:$bp-heading-technology) {
+        clip-path:polygon(0 0,100% 0 ,100% 75vh,0 100% );
+    }
+
   &__logo-box {
     position: absolute;
     top: 1rem;
@@ -26,6 +30,12 @@
 
     @media only screen and (max-width: $bp-large) {
       height: 13rem;
+    }
+    @media only screen and (max-width:$bp-projects) {
+      height: 10rem;
+    }
+    @media only screen and (max-width:$bp-heading-technology) {
+      height: 8rem;
     }
   }
   

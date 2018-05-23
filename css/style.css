@@ -94,6 +94,14 @@ body {
     @media only screen and (max-width: 75em) {
       .heading-primary--main {
         font-size: 4rem; } }
+    @media only screen and (max-width: 43.75em) {
+      .heading-primary--main {
+        font-size: 4rem;
+        letter-spacing: 1.3rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .heading-primary--main {
+        font-size: 2.5rem;
+        letter-spacing: 1.1rem; } }
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
@@ -104,6 +112,14 @@ body {
       .heading-primary--sub {
         font-size: 1.6rem;
         letter-spacing: 1.5rem; } }
+    @media only screen and (max-width: 43.75em) {
+      .heading-primary--sub {
+        font-size: 1.4rem;
+        letter-spacing: 1.4rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .heading-primary--sub {
+        font-size: 1.2rem;
+        letter-spacing: 1.1rem; } }
 
 .heading-secondary {
   font-size: 3.5rem;
@@ -129,6 +145,9 @@ body {
   font-weight: 300;
   letter-spacing: 1.01rem;
   text-transform: uppercase; }
+  @media only screen and (max-width: 28.125em) {
+    .heading-tertiary {
+      font-size: 1.2rem; } }
 
 .heading-technologies {
   font-size: 3.5rem;
@@ -136,6 +155,14 @@ body {
   letter-spacing: 1.5rem;
   text-transform: uppercase;
   color: #000; }
+  @media only screen and (max-width: 37.5em) {
+    .heading-technologies {
+      font-size: 2.5rem;
+      letter-spacing: 1.2rem; } }
+  @media only screen and (max-width: 28.125em) {
+    .heading-technologies {
+      font-size: 2rem;
+      letter-spacing: 1rem; } }
 
 .fade-2 {
   border-width: 0 0 1px;
@@ -286,33 +313,44 @@ body {
     .description {
       margin: 5rem auto;
       width: 70%; } }
+  @media only screen and (max-width: 28.125em) {
+    .description {
+      margin: 5rem auto;
+      width: 80%; } }
   .description:hover {
     transform: translateY(-1.3rem) scale(1.03);
     box-shadow: 1rem 2rem 3rem 0.7rem rgba(0, 0, 0, 0.2);
     color: #FF456B;
     background-color: #fff; }
 
-.detail {
-  margin-top: 10rem; }
-  .detail__box {
-    font-size: 1rem;
-    font-weight: 400;
-    padding: 10rem;
-    color: #fff;
-    box-shadow: 0.3rem 0.6rem 1rem rgba(0, 0, 0, 0.4);
-    transition: transform .3s;
-    background-image: linear-gradient(to right bottom, rgba(0, 186, 183, 0.8), rgba(255, 255, 255, 0.1)), url(../img/skill-2.jpeg);
-    background-position: top;
-    background-size: cover; }
-    @media only screen and (max-width: 75em) {
-      .detail__box {
-        padding: 8rem; } }
-    .detail__box:hover {
-      transform: translateY(-1.1rem) scale(1.03); }
-  .detail__footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
+.detail__box {
+  padding: 10rem;
+  color: #fff;
+  box-shadow: 0.3rem 0.6rem 1rem rgba(0, 0, 0, 0.4);
+  transition: transform .3s;
+  background-image: linear-gradient(to right bottom, rgba(0, 186, 183, 0.8), rgba(255, 255, 255, 0.1)), url(../img/skill-2.jpeg);
+  background-position: top;
+  background-size: cover;
+  text-align: center; }
+  @media only screen and (max-width: 28.125em) {
+    .detail__box {
+      margin: 5rem 2rem; } }
+  @media only screen and (max-width: 56.25em) {
+    .detail__box {
+      margin: 5rem 10rem; } }
+  @media only screen and (max-width: 75em) {
+    .detail__box {
+      padding: 8rem; } }
+  @media only screen and (max-width: 25em) {
+    .detail__box {
+      margin: 5rem 0; } }
+  .detail__box:hover {
+    transform: translateY(-1.1rem) scale(1.03); }
+
+.detail__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
 .skills {
   margin-bottom: 5rem; }
@@ -325,6 +363,9 @@ body {
     align-items: center;
     transition: transform .3s;
     margin: 15rem 5rem; }
+    @media only screen and (max-width: 65em) {
+      .skills__box {
+        margin: 7rem; } }
     .skills__box:hover {
       transform: translateY(-1.04rem) scale(1.1); }
   .skills__icon {
@@ -349,6 +390,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center; }
+  @media only screen and (max-width: 37.5em) {
+    .header {
+      clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); } }
   .header__logo-box {
     position: absolute;
     top: 1rem;
@@ -358,6 +402,12 @@ body {
     @media only screen and (max-width: 68.75em) {
       .header__logo {
         height: 13rem; } }
+    @media only screen and (max-width: 43.75em) {
+      .header__logo {
+        height: 10rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .header__logo {
+        height: 8rem; } }
   .header__text-box {
     margin-bottom: 20rem;
     text-align: center;
@@ -368,11 +418,11 @@ body {
 
 .detail {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin-top: 10rem; }
   @media only screen and (max-width: 56.25em) {
     .detail {
-      flex-direction: column;
-      margin: 10rem 0; } }
+      flex-direction: column; } }
 
 .skills {
   display: flex;
@@ -398,6 +448,9 @@ body {
     color: #fff;
     padding: 0 5rem;
     margin: 2rem; }
+    @media only screen and (max-width: 56.25em) {
+      .education__box {
+        margin: 5rem; } }
     .education__box--2 {
       background-color: rgba(28, 28, 36, 0.8);
       flex: 1; }
@@ -423,14 +476,19 @@ body {
       .education__paragraph {
         font-size: 1.6rem;
         padding: 0 4rem;
-        margin-top: 5rem; } }
-    @media only screen and (max-width: 56.25em) {
+        margin-top: 5rem;
+        margin-bottom: 5rem; } }
+    @media only screen and (max-width: 28.125em) {
       .education__paragraph {
-        padding: 0 5rem; } }
+        margin: 5rem auto;
+        width: 70%; } }
 
 .project {
   display: flex;
   justify-content: space-around; }
+  @media only screen and (max-width: 56.25em) {
+    .project {
+      flex-direction: column; } }
   .project__item {
     margin: 5rem;
     background-color: #fff;
@@ -440,6 +498,16 @@ body {
     transition: box-shadow .2s, transform .3s;
     display: flex;
     flex-direction: column; }
+    @media only screen and (max-width: 56.25em) {
+      .project__item {
+        margin: 5rem 20rem; } }
+    @media only screen and (max-width: 43.75em) {
+      .project__item {
+        margin: 5rem 10rem;
+        height: 60%; } }
+    @media only screen and (max-width: 28.125em) {
+      .project__item {
+        margin: 5rem; } }
     .project__item:hover {
       box-shadow: 0 3rem 4rem rgba(0, 0, 0, 0.3);
       transform: translateY(-1.2rem) scale(1.03); }

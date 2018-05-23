@@ -15,6 +15,11 @@
     margin: 5rem auto;
     width:70%;
   }
+  @media only screen and (max-width:$bp-smallest) {
+    margin: 5rem auto;
+    width: 80%;
+  }
+  
 
   &:hover {
     transform: translateY(-1.3rem) scale(1.03);

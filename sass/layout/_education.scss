@@ -19,6 +19,10 @@
     padding: 0 5rem;
     margin: 2rem;
 
+    @media only screen and (max-width:$bp-small) {
+      margin: 5rem;
+    }
+
     &--2 {
       background-color: rgba($color-primary-education,.8);
       flex: 1;
@@ -54,10 +58,11 @@
       font-size: 1.6rem;
       padding: 0 4rem;
       margin-top: 5rem;
+      margin-bottom: 5rem;
     }
-
-    @media only screen and (max-width:$bp-small) {
-      padding: 0 5rem;
+    @media only screen and (max-width:$bp-smallest) {
+      margin: 5rem auto;
+      width:70%;
     }
   }
 }

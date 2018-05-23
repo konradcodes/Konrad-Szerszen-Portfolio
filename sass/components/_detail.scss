@@ -1,10 +1,7 @@
 .detail {
 
-  margin-top: 10rem;
 
 &__box {
-  font-size: 1rem;
-  font-weight: 400;
   padding:10rem;
   color:$color-white;
   box-shadow: .3rem .6rem 1rem rgba($color-black,.4);
@@ -15,9 +12,23 @@
   url(../img/skill-2.jpeg);
   background-position: top;
   background-size: cover;
+  text-align: center;
 
+  
+
+  @media only screen and (max-width:$bp-smallest) {
+    margin: 5rem 2rem;
+  }
+
+  @media only screen and (max-width:$bp-small) {
+    margin: 5rem 10rem;
+  }
   @media only screen and (max-width:$bp-largest) {
     padding:8rem;
+  }
+
+  @media only screen and (max-width:$bp-xs) {
+    margin: 5rem 0;
   }
 
   
