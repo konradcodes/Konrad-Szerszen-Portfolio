@@ -364,7 +364,7 @@ body {
       padding: 8rem; } }
   @media only screen and (max-width: 25em) {
     .detail__box {
-      margin: 5rem 0; } }
+      margin: 5rem 10; } }
   .detail__box:hover {
     transform: translateY(-1.1rem) scale(1.03); }
 
@@ -383,7 +383,7 @@ body {
     justify-content: center;
     align-items: center;
     transition: transform .3s;
-    margin: 15rem 5rem; }
+    margin: 10rem 5rem; }
     @media only screen and (max-width: 65em) {
       .skills__box {
         margin: 7rem; } }
@@ -461,7 +461,7 @@ body {
   .education__items {
     display: flex;
     justify-content: space-evenly;
-    align-items: center; }
+    align-items: flex-start; }
     @media only screen and (max-width: 56.25em) {
       .education__items {
         flex-direction: column; } }
@@ -654,14 +654,14 @@ body {
   overflow: hidden; }
 
 .section-projects {
-  padding: 5rem 0 20rem 0;
+  padding: 5rem 0 5rem 0;
   background: linear-gradient(to right, #CB356B, #BD3F32);
   overflow: hidden; }
 
 .section-contact {
   background: linear-gradient(to right, #1c1c24, #004e92);
   overflow: hidden;
-  padding: 7rem 0 20rem 0;
+  padding: 5rem 0 5rem 0;
   text-align: center; }
 
 .footer {
