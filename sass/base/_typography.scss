@@ -185,8 +185,15 @@ body {
   margin: 10rem 15rem;
 
   @media only screen and (max-width:$bp-smallest) {
-    margin: 10rem;
-    padding: 5rem;
+    margin: 7rem;
+  }
+  @media only screen and (max-width:$bp-xs) {
+    margin: 5rem;
+    padding: 0 3rem;
+  }
+  @media only screen and (max-width:$bp-300) {
+    margin: 3rem;
+    padding: 0 1rem;
   }
 }
 
