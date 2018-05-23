@@ -72,15 +72,10 @@ body {
 }
 .heading-technologies {
   font-size: 3.5rem;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1.5rem;
   text-transform: uppercase;
-  color:$color-black;
-  transition: color .3s;
-
-  &:hover {
-    color: #3d5afe;
-  }
+  color: $color-black;
 }
 .fade-2 {
   border-width: 0 0 1px;
@@ -95,8 +90,8 @@ body {
 // SECTION EDUCATION
 
 .heading-education {
- font-size: 5rem;
- font-weight: 300;
+ font-size: 4rem;
+ font-weight: 400;
  letter-spacing: 1.5rem;
  text-transform: uppercase;
  color: $color-white;
@@ -147,7 +142,7 @@ body {
 .heading-projects {
   text-align: center;
   font-size: 4rem;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
   color: $color-white;
   margin-bottom: 5rem;
@@ -189,6 +184,7 @@ padding: 0 20rem;
   font-size: 1.4rem;
   color: $color-white;
   margin-top: 8rem;
+  margin-bottom: 5rem;
 }
 
 ///////////////////////////////

@@ -5,15 +5,15 @@
 }
 
 &__items {
-
+  display: flex;
 }
 &__box {
-  margin: 10rem 12rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   transition: transform .3s;
+  margin: 15rem 5rem;
 
   &:hover {
     transform: translateY(-1.04rem) scale(1.1);

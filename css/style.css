@@ -132,13 +132,10 @@ body {
 
 .heading-technologies {
   font-size: 3.5rem;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1.5rem;
   text-transform: uppercase;
-  color: #000;
-  transition: color .3s; }
-  .heading-technologies:hover {
-    color: #3d5afe; }
+  color: #000; }
 
 .fade-2 {
   border-width: 0 0 1px;
@@ -146,8 +143,8 @@ body {
   border-style: solid; }
 
 .heading-education {
-  font-size: 5rem;
-  font-weight: 300;
+  font-size: 4rem;
+  font-weight: 400;
   letter-spacing: 1.5rem;
   text-transform: uppercase;
   color: #fff;
@@ -188,7 +185,7 @@ body {
 .heading-projects {
   text-align: center;
   font-size: 4rem;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 5rem; }
@@ -221,7 +218,8 @@ body {
 .contact__details {
   font-size: 1.4rem;
   color: #fff;
-  margin-top: 8rem; }
+  margin-top: 8rem;
+  margin-bottom: 5rem; }
 
 .footer {
   text-align: center; }
@@ -318,13 +316,15 @@ body {
 
 .skills {
   margin-bottom: 5rem; }
+  .skills__items {
+    display: flex; }
   .skills__box {
-    margin: 10rem 12rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: transform .3s; }
+    transition: transform .3s;
+    margin: 15rem 5rem; }
     .skills__box:hover {
       transform: translateY(-1.04rem) scale(1.1); }
   .skills__icon {
