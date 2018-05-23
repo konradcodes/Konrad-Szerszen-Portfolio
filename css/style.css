@@ -654,14 +654,14 @@ body {
   overflow: hidden; }
 
 .section-projects {
-  padding: 5rem 0 5rem 0;
+  padding: 5rem 0 10rem 0;
   background: linear-gradient(to right, #CB356B, #BD3F32);
   overflow: hidden; }
 
 .section-contact {
   background: linear-gradient(to right, #1c1c24, #004e92);
   overflow: hidden;
-  padding: 5rem 0 5rem 0;
+  padding: 7rem 0 15rem 0;
   text-align: center; }
 
 .footer {
